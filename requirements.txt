@@ -1,0 +1,22 @@
+openai>=1.12.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+# LangChain: document loaders (PDF, Word), chunking, Gemini embeddings, vector store
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-google-genai>=2.0.0
+pypdf>=4.0.0
+docx2txt>=0.8
+# Excel
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+# Scanned PDF pages, images, PowerPoint / Outlook / HTML
+pypdfium2>=4.30.0
+pillow>=10.0.0
+markitdown[pptx,outlook]>=0.1.0
+# API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9

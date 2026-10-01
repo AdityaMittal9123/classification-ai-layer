@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment files
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Runtime data & vector store (generated on demo execution)
+# Uncomment if you don't want to track local db files:
+# *.db
+# vector_store.json
